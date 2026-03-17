@@ -1,0 +1,90 @@
+# robots.txt für Creative Web Studio GmbH
+# https://informatik-luzern.ch/robots.txt
+# Letzte Aktualisierung: 2025-09-22
+
+# Allgemeine Regeln für alle Bots
+User-agent: *
+
+# Erlaubte Bereiche
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.webp
+Allow: /*.ico
+
+# Nicht erlaubte Bereiche
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /*.log
+Disallow: /*.tmp
+Disallow: /contact.php
+Disallow: /config/
+Disallow: /includes/
+
+# Spezielle Regeln für Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Spezielle Regeln für Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Spezielle Regeln für andere Suchmaschinen
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 3
+
+# Blockiere schädliche Bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+# Sitemap-Verweis - Verstärkte kanonische Signale
+Sitemap: https://informatik-luzern.ch/sitemap.xml
+
+# Host-Angabe (bevorzugte Domain) - Verstärkt
+Host: informatik-luzern.ch
+
+# Crawl-delay für alle anderen Bots
+User-agent: *
+Crawl-delay: 5
+
+# Spezielle Anweisungen für lokale SEO
+# Diese Datei unterstützt die lokale Suchmaschinenoptimierung
+# für ICT-Dienstleistungen in der Region Luzern/Zentralschweiz
+
+# Zusätzliche Hinweise für Suchmaschinen:
+# Bevorzugte Domain: https://informatik-luzern.ch/ (ohne www)
+# Alle www-Varianten werden automatisch weitergeleitet
