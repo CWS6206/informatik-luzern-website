@@ -1,6 +1,6 @@
 # robots.txt für Creative Web Studio GmbH
-# https://informatik-luzern.ch/robots.txt
-# Letzte Aktualisierung: 2025-09-22
+# https://creative-web-studio.ch/robots.txt
+# Letzte Aktualisierung: 2026-04-13
 
 # Allgemeine Regeln für alle Bots
 User-agent: *
@@ -72,10 +72,10 @@ User-agent: MegaIndex
 Disallow: /
 
 # Sitemap-Verweis - Verstärkte kanonische Signale
-Sitemap: https://informatik-luzern.ch/sitemap.xml
+Sitemap: https://creative-web-studio.ch/sitemap.xml
 
 # Host-Angabe (bevorzugte Domain) - Verstärkt
-Host: informatik-luzern.ch
+Host: creative-web-studio.ch
 
 # Crawl-delay für alle anderen Bots
 User-agent: *
@@ -86,5 +86,5 @@ Crawl-delay: 5
 # für ICT-Dienstleistungen in der Region Luzern/Zentralschweiz
 
 # Zusätzliche Hinweise für Suchmaschinen:
-# Bevorzugte Domain: https://informatik-luzern.ch/ (ohne www)
+# Bevorzugte Domain: https://creative-web-studio.ch/ (ohne www)
 # Alle www-Varianten werden automatisch weitergeleitet

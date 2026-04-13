@@ -6,24 +6,24 @@
 
     <!-- Homepage - Hauptseite mit höchster Priorität -->
     <url>
-        <loc>https://informatik-luzern.ch/</loc>
-        <lastmod>2026-02-22</lastmod>
+        <loc>https://creative-web-studio.ch/</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- Impressum - Rechtliche Informationen -->
     <url>
-        <loc>https://informatik-luzern.ch/impressum.html</loc>
-        <lastmod>2026-02-22</lastmod>
+        <loc>https://creative-web-studio.ch/impressum/</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
 
     <!-- Datenschutz - Datenschutzerklärung -->
     <url>
-        <loc>https://informatik-luzern.ch/datenschutz.html</loc>
-        <lastmod>2026-02-22</lastmod>
+        <loc>https://creative-web-studio.ch/datenschutz/</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
