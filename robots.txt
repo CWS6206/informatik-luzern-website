@@ -1,45 +1,29 @@
 # robots.txt für Creative Web Studio GmbH
 # https://creative-web-studio.ch/robots.txt
-# Letzte Aktualisierung: 2026-04-13
+# Letzte Aktualisierung: 2026-04-20
 
 # Allgemeine Regeln für alle Bots
 User-agent: *
-
-# Erlaubte Bereiche
 Allow: /
-Allow: /css/
-Allow: /js/
-Allow: /images/
-Allow: /assets/
-Allow: /*.css
-Allow: /*.js
-Allow: /*.jpg
-Allow: /*.jpeg
-Allow: /*.png
-Allow: /*.gif
-Allow: /*.svg
-Allow: /*.webp
-Allow: /*.ico
-
-# Nicht erlaubte Bereiche
 Disallow: /admin/
 Disallow: /private/
 Disallow: /temp/
 Disallow: /backup/
-Disallow: /*.log
-Disallow: /*.tmp
 Disallow: /contact.php
 Disallow: /config/
 Disallow: /includes/
+Disallow: /index.html
 
 # Spezielle Regeln für Google Bot
 User-agent: Googlebot
 Allow: /
+Disallow: /index.html
 Crawl-delay: 1
 
 # Spezielle Regeln für Bing Bot
 User-agent: Bingbot
 Allow: /
+Disallow: /index.html
 Crawl-delay: 2
 
 # Spezielle Regeln für andere Suchmaschinen
@@ -71,20 +55,8 @@ Disallow: /
 User-agent: MegaIndex
 Disallow: /
 
-# Sitemap-Verweis - Verstärkte kanonische Signale
+# Sitemap-Verweis
 Sitemap: https://creative-web-studio.ch/sitemap.xml
 
-# Host-Angabe (bevorzugte Domain) - Verstärkt
+# Host-Angabe (bevorzugte Domain)
 Host: creative-web-studio.ch
-
-# Crawl-delay für alle anderen Bots
-User-agent: *
-Crawl-delay: 5
-
-# Spezielle Anweisungen für lokale SEO
-# Diese Datei unterstützt die lokale Suchmaschinenoptimierung
-# für ICT-Dienstleistungen in der Region Luzern/Zentralschweiz
-
-# Zusätzliche Hinweise für Suchmaschinen:
-# Bevorzugte Domain: https://creative-web-studio.ch/ (ohne www)
-# Alle www-Varianten werden automatisch weitergeleitet

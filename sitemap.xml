@@ -7,7 +7,7 @@
     <!-- Homepage - Hauptseite mit höchster Priorität -->
     <url>
         <loc>https://creative-web-studio.ch/</loc>
-        <lastmod>2026-04-13</lastmod>
+        <lastmod>2026-04-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -15,7 +15,7 @@
     <!-- Impressum - Rechtliche Informationen -->
     <url>
         <loc>https://creative-web-studio.ch/impressum/</loc>
-        <lastmod>2026-04-13</lastmod>
+        <lastmod>2026-04-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
@@ -23,7 +23,7 @@
     <!-- Datenschutz - Datenschutzerklärung -->
     <url>
         <loc>https://creative-web-studio.ch/datenschutz/</loc>
-        <lastmod>2026-04-13</lastmod>
+        <lastmod>2026-04-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
